@@ -1,9 +1,17 @@
 ---
 layout: base.11ty.js
+title: Jonathan Looney
 ---
 
-# Hello world
+# Jonathan Looney
 
-This is an [11ty](https://11ty.dev) starter with TypeScript templates.
+<ul>
+  {% for post in collections.posts | reverse %}
+    <li>
+      <a href="{{ post.url | url }}">
+        {{ post.data.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
 
-Check out the [blog](/blog) too!

@@ -21,7 +21,8 @@ module.exports = ({
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="${description}">
-      <title>${title || 'Hello world'}</title>
+      <link rel="stylesheet" href="/styles.css">
+      <title>${title || 'Jonathan Looney'}</title>
     </head>
     <body>
       <header>

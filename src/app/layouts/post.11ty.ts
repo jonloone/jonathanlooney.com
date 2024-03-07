@@ -9,7 +9,7 @@ exports.data = {
 }
 
 exports.render = ({ title, page, content }: BlogPostProps) => `
-  <a href="/blog">Back</a>
+  <a href="/">Back</a>
   <article>
     <h1>${title}</h1>
     <time>${page.date}</time>
